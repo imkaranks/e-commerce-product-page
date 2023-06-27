@@ -14,7 +14,7 @@ function Navbar({ cart, setCart }) {
         {
           Object.entries(cart).length
           ? <>
-            <div className='flex gap-2'>
+            <div className='flex gap-4 items-center'>
               <img
                 src={product1Thumbnail}
                 alt=''

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Main } from './components';
+import './App.css';
 
 function App() {
   const [cart, setCart] = useState({});

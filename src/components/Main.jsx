@@ -30,8 +30,8 @@ function Main({ setCart }) {
             <del className='text-primary-400 font-bold block'>$250</del>
           </div>
 
-          <div className='flex gap-4 items-center'>
-            <div className="flex gap-4 text-lg font-bold bg-primary-300 p-3">
+          <div className='flex items-center justify-start gap-4'>
+            <div className="flex flex-shrink-0 gap-4 text-lg font-bold bg-primary-300 p-3">
               <button
                 className='p-1'
                 onClick={() => setCount(count => {
@@ -49,7 +49,7 @@ function Main({ setCart }) {
               </button>
             </div>
             <button
-              className='px-20 py-4 inline-flex bg-accent-400 text-white font-bold hover:bg-accent-300 rounded-md shadow-lg'
+              className='w-full max-w-[18rem] p-4 inline-flex justify-center items-center bg-accent-400 text-white font-bold transition-all ease hover:bg-accent-400/75 hover:-translate-y-1 rounded-md shadow-lg hover:shadow-black/30'
               onClick={() => updateCart("Fall Limited Edition Sneaker", 125, count)}
             >
               <span>Add to Cart</span>
